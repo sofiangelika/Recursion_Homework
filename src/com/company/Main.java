@@ -64,8 +64,6 @@ public class Main {
             return true;
         else
             return recursiveSequential(arrayToCheck, key, index + 1);
-
-
     }
 
     //Homework 5:
@@ -83,7 +81,7 @@ public class Main {
             System.out.println(java.util.Arrays.toString(bits));
             return;
         }
-        for (bits [n] = 0; bits [n] <= 1; bits [n]++) {
+        for (bits[n] = 0; bits[n] <= 1; bits[n]++) {
             bitArrays(bits, n - 1);
         }
     }
